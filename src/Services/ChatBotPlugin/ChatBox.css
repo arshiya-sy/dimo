@@ -1,0 +1,382 @@
+.react-chat-container {
+  width: 100%;
+}
+
+.react-chat-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 1200px) {
+  .react-chat-container {
+    max-width: 71.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .react-chat-container {
+    max-width: 60rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .react-chat-container {
+    max-width: 45rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .react-chat-container {
+    max-width: 33.75rem;
+  }
+}
+
+.react-chat-viewerBox {
+  border-color: rgba(33, 37, 41, 0.15);
+  color: #212529;
+  background-color: #fff;
+  min-height: 18.75rem;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-width: 0.063rem;
+  border-style: solid;
+  outline: 0;
+}
+
+.react-chat-messagesList {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  scroll-behavior: smooth;
+  border-width: 0 0 0.063rem 0;
+  border-style: solid;
+  border-color: inherit;
+}
+
+.react-chat-messagesListContent {
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.react-chat-messageBox {
+  max-width: 80%;
+  background: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  position: relative;
+}
+
+.react-chat-messageBoxLeft {
+  padding-left: 2.5rem;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.react-chat-messageBoxRight {
+  padding-right: 2.5rem;
+  align-self: flex-end;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.react-chat-message-buttonGroupLeft a {
+  text-align: center;
+  color: #212529;
+}
+
+.react-chat-message-buttonGroupLeft-col {
+  text-align: left;
+  color: #fff;
+}
+
+.react-chat-message-buttonGroupRight a {
+  text-align: center;
+  color: #007bff;
+}
+
+.react-chat-message-button{
+  cursor: pointer;
+  display: inline-block;
+  background-color: #fff;
+  width: 18.7rem;
+  border-radius: 0.75rem;
+  padding: 0.313rem;
+  margin: 0.23rem !important;
+  text-align: center;
+}
+
+.react-chat-message-button:disabled {
+  cursor: pointer;
+  display: inline-block;
+  background-color: RGBA(255, 255, 255, 0.38);
+  color: RGBA(255, 255, 255, 0.38);
+  width: 18.7rem;
+  border-radius: 0.75rem;
+  padding: 0.313rem;
+  margin: 0.23rem !important;
+  text-align: center;
+}
+
+.react-chat-message-button:hover {
+  text-decoration: none;
+}
+
+.react-chat-message {
+  max-width: 100%;
+  margin: 0.125rem 0 0;
+  position: relative;
+  transition: margin 0.2s ease-in-out;
+}
+
+.react-chat-messageLeft {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.react-chat-messageRight {
+  align-self: flex-end;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.react-chat-bubble {
+  transition: box-shadow 0.2s ease-in-out;
+  order: -1;
+  box-shadow: none;
+  border-radius: 0.75rem;
+  padding: 0.5rem 1rem;
+  border-width: 0.063rem;
+  border-style: solid;
+  line-height: 1.25;
+  word-wrap: break-word;
+  font-size: 1rem;
+  width: fit-content;
+  text-align: left;
+  word-break: break-word;
+  white-space: break-spaces;
+}
+
+.react-chat-leftBubble {
+  border-bottom-left-radius: 0.125rem;
+  border-color: #e4e7eb;
+  color: #212529;
+  background-color: #e4e7eb;
+  float: left;
+}
+
+.react-chat-rightBubble {
+  border-bottom-right-radius: 0.125rem;
+  border-color: #007bff;
+  color: #fff;
+  background-color: #007bff;
+  float: right;
+}
+
+.react-chat-avatar {
+  border-radius: 100%;
+  width: 2rem;
+  height: 2rem;
+  margin: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  border-style: none;
+  bottom: 1.25rem;
+}
+
+.react-chat-avatarLeft {
+  left: 0;
+}
+
+.react-chat-avatarRight {
+  right: 0;
+}
+
+.react-chat-inputBox {
+  color: #212529;
+  background-color: #fff;
+  padding: 0.625rem 1rem;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.chat-box-disable {
+  opacity: 0.3;
+  background-color: #e4e7eb;
+}
+
+.react-chat-textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  background: none;
+  flex: 1 1 auto;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  -webkit-appearance: none;
+  resize: none;
+}
+
+.react-chat-sendButton {
+  padding: 0;
+  border-color: transparent !important;
+  color: inherit;
+  background: none !important;
+  box-shadow: none !important;
+  transition: color 0.2s ease-in-out;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  border-width: 0.063rem;
+  border-style: solid;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: inherit;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  user-select: none;
+  cursor: pointer;
+  outline: none;
+  -webkit-appearance: none;
+  position: relative;
+}
+
+.react-chat-SendIcon:hover {
+  fill: #007bff;
+}
+
+.react-chat-SendIcon-disable {
+  fill: #212529;
+  cursor: auto;
+}
+
+.react-chat-additional {
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #5f6368;
+  font-size: 0.813rem;
+}
+
+.react-chat-bubbleWithError {
+  position: relative;
+}
+
+.react-chat-error {
+  position: absolute;
+  fill: red;
+}
+
+.react-chat-errorLeft {
+  right: -1.875rem;
+}
+
+.react-chat-errorRight {
+  left: -1.875rem;
+}
+
+.react-chat-notification {
+  width: 100%;
+  word-break: break-word;
+  margin-top: 0.188rem !important;
+  margin-bottom: 0.188rem !important;
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+.react-chat-typing-indicator {
+  background-color: #e4e7eb;
+  width: auto;
+  border-radius: 3.125rem;
+  display: table;
+  margin: 0 auto;
+  position: relative;
+}
+
+.react-chat-typing-indicator span {
+  height: 1rem;
+  width: 1rem;
+  float: left;
+  margin: 0 0.063rem;
+  background-color: #9e9ea1;
+  display: block;
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+.react-chat-leftBubble-QuickReply {
+  padding: 0;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 12px !important;
+  background-color: transparent !important;
+  color: white !important;
+  border-color: transparent !important;
+}
+
+.react-chat-typing-indicator span:nth-of-type(1) {
+  -webkit-animation: 1s blink infinite 0.3333s;
+  animation: 1s blink infinite 0.3333s;
+}
+.react-chat-typing-indicator span:nth-of-type(2) {
+  -webkit-animation: 1s blink infinite 0.6666s;
+  animation: 1s blink infinite 0.6666s;
+}
+.react-chat-typing-indicator span:nth-of-type(3) {
+  -webkit-animation: 1s blink infinite 0.9999s;
+  animation: 1s blink infinite 0.9999s;
+}
+
+@-webkit-keyframes blink {
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes bulge {
+  50% {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+}
+@keyframes bulge {
+  50% {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+}

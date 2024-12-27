@@ -1,0 +1,10 @@
+.carousel-item {
+    border-radius: 1.5rem; /* Adjust the border-radius value as needed */
+    overflow: hidden;
+    margin: 0 1.5rem; /* Add margin for spacing between slides */
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    border-radius: 1.5rem; /* Ensure images within slides have rounded corners */
+  }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="14px" viewBox="0 0 18 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons / Filled / Toggle / check box</title>
+    <g id="All-Review-pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ω-Aux/2--Source" transform="translate(-87.000000, -5.000000)">
+            <g id="Icons-/-Filled-/-Toggle-/-check-box" transform="translate(84.000000, -0.000000)">
+                <rect id="Icon-Bounds" x="0" y="0" width="24" height="24"></rect>
+                <path d="M6.99,11 L3,15 L6.99,19 L6.99,16 L14,16 L14,14 L6.99,14 L6.99,11 Z M21,9 L17.01,5 L17.01,8 L10,8 L10,10 L17.01,10 L17.01,13 L21,9 Z" id="Icon" fill="#F2A375"></path>
+            </g>
+        </g>
+    </g>
+</svg>

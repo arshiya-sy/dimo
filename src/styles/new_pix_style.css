@@ -1,0 +1,193 @@
+.pixHeaderText {
+    font-size: 1.5rem;
+    color: rgb(0, 20, 40);
+    text-align: left;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-family: Roboto;
+}
+
+.pixSubHeaderText {
+    font-size: 1rem;
+    color: rgb(0, 20, 40);
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-family: Roboto;
+}
+
+.pixSuggestionText {
+    color: rgb(0, 20, 40);
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.25px;
+    font-family: Roboto;
+}
+
+.pixTwoLineButtonHeader {
+    text-align: left;
+    text-transform: none;
+    font-family: Roboto;
+}
+
+.pixTwoLineButtonSubHeader {
+    text-align: left;
+    text-transform: none;
+    font-family: Roboto;
+}
+
+.pixCurrencyStyle {
+    vertical-align: top;
+    font-family: Roboto;
+    position: relative;
+    top: 0.625rem
+}
+
+.balanceStyle {
+    vertical-align: middle;
+    position: relative;
+    top: -0.15rem
+}
+
+.hidestyle {
+    position: relative;
+    top: 0.25rem
+}
+
+.loadBalanceStyle {
+    vertical-align: top;
+    position: relative;
+    top: -0.5rem
+}
+
+.pixCurrentFull {
+    color: rgb(0, 20, 40);
+    font-weight: 400;
+    font-family: Roboto;
+    font-size: 2.125rem;
+    letter-spacing: 0.25px;
+    line-height: 2.75rem;
+}
+
+.pixSubScript {
+    vertical-align: top;
+    position: relative;
+    top: 0.25rem
+}
+
+.subScript {
+    vertical-align: top;
+    top: 0.25rem
+}
+
+.pixEditButton {
+    vertical-align: top;
+    position: relative;
+    top: 0.625
+}
+
+.pixTableRightContent {
+    text-align: right;
+    float: right;
+    width: 50%;
+    word-wrap: break-word;
+}
+
+.pixTableLeftContent {
+    float: left;
+    width: 50%;
+}
+
+.creditCardTableRightContent {
+    text-align: right;
+    float: right;
+    width: 30%;
+    word-wrap: break-word;
+}
+
+.creditCardTableLeftContent {
+    float: left;
+    width: 70%;
+    word-wrap: break-word;
+}
+
+.salaryTableRightContent {
+    text-align: right;
+    float: right;
+    width: 60%;
+    word-wrap: break-word;
+}
+
+.salaryTableLeftContent {
+    float: left;
+    text-align: left;
+    width: 40%;
+}
+
+.pixReceiptIconStyle {
+    color:rgb(56, 229, 196);
+    vertical-align: top;
+    position: relative;
+    left: 1.5rem;
+    top: 5rem;
+}
+
+.pixDateStyle {
+    color: rgb(0, 20, 40);
+    font-family: Roboto;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.pixReceiverSenderIcon {
+    vertical-align: top;
+    position: relative;
+    margin-right: 0.5rem;
+    color: #FFB684;
+}
+
+.svgReceiverSenderIcon{
+    vertical-align: top;
+    position: relative;
+    margin-right: 0.5rem;
+    filter: invert(0%) sepia(95%) saturate(20%) hue-rotate(39deg) brightness(101%) contrast(107%);
+}
+
+.pixCopyPasteHeader {
+    color:rgba(0, 0, 0, 0.87);
+    font-family: Roboto;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    pointer-events: none;
+    text-align: center;
+}
+
+.pixCopyPasteSubHeader {
+    color:rgba(0, 20, 40, 0.6);
+    font-family: Roboto;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.25px;
+    font-weight: 400;
+    pointer-events: none;
+    text-align: center;
+}
+
+.justifyCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactInitial {
+    width : 2.375rem;
+    height: 2.375rem;
+    border-radius: 1.25rem;
+    background: linear-gradient(135deg, RGBA(255, 85, 77, 0.99), RGB(255, 186, 143));
+    opacity: 1;
+}

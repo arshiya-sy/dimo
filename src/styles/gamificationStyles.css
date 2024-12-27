@@ -1,0 +1,89 @@
+.disableReward div, .disableReward svg {
+  color: rgba(255, 255, 255, 0.38) !important;
+  fill: rgba(255, 255, 255, 0.38) !important;
+  border-color: rgba(255, 255, 255, 0.38) !important;;
+}
+.disableReward .MuiChip-root.MuiChip-filled {
+  background-color: rgba(255, 255, 255, 0.38) !important
+}
+#rewards_container .stickyHeader {
+  position: fixed;
+  top: 56px;
+  width: 100%;
+  z-index: 1000;
+  background-color: #031e3a;
+  background-image: url("../images/DarkThemeImages/Background\ StratusGradient.png");
+  background-size: cover;
+}
+#rewards_container div[role="tabpanel"] {
+  /* height: fit-content !important; */
+}
+#rewards_container .rewardsHeaderSection {
+  background-size: cover;
+  background-image: url("../images/DarkThemeImages/Background\ StratusGradient.png");
+  overscroll-behavior: contain;
+  background-color: #031E3A;
+}
+#rewards_container .MuiButtonBase-root.MuiTab-root {
+  color: rgba(255, 255, 255, 0.38);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  letter-spacing: 0.1px;
+  text-transform: unset;
+  min-height: 3.125rem;
+}
+#rewards_container .MuiButtonBase-root.MuiTab-root.Mui-selected {
+  color: #fff;
+}
+#rewards_container .MuiTabs-indicator{
+  background-color: #ffb684;
+  height: 0.25rem;
+}
+#rewards_container .MuiBadge-badge {
+  background-color: #FE7A7E;
+  color: #fff;
+}
+.textUppercase {
+  text-transform: uppercase;
+}
+.textCapitalize {
+  text-transform: capitalize;
+}
+.truncateCharacters {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#program_details_container .wonGoldenTicketNumber {
+  box-shadow: 0 0 15px 1px #dfc39f, 0 0 0 0 #dfc39f;
+  background: #dfc39f8a;
+  border-radius: 0.625rem;
+}
+#program_details_container .wonNormalTicketNumber {
+  box-shadow: 0 0 20px 1px #304c67, 0 0 0 0 #304c67;
+  background: #304c678a;
+  border-radius: 0.625rem;
+}
+#rewards_container .scroll::-webkit-scrollbar,
+#program_details_container .scroll::-webkit-scrollbar,
+#rewards_history_container .scroll::-webkit-scrollbar {
+  /* display: none !important; */
+}
+#program_details_container .custom-dot-list-style .react-multi-carousel-dot button {
+  background-color: RGB(31, 63, 94);
+  border: 0;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+#program_details_container .custom-dot-list-style .react-multi-carousel-dot--active button {
+  background-color: #fff;
+}
+#program_details_container .custom-container .carousel-item-padding {
+  padding-bottom: 1rem;
+}
+#program_details_container .carousel-container {
+  margin-bottom: 1rem;
+}
+

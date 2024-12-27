@@ -1,0 +1,44 @@
+.helpHeaderText1 {
+    font-size: 1.25rem;
+    color: rgb(0, 20, 40);
+    line-height: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.15px;
+    font-family: Roboto;
+}
+
+.helpMenuList1 {
+    font-size: 1rem;
+    color: rgb(0, 20, 40);
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-family: Roboto;
+}
+
+.helpBottomText {
+    font-size: 0.875rem;
+    color: rgb(0, 20, 40);
+    line-height: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    font-family: Roboto;
+}
+
+.helpHeaderText2 {
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    font-family: Roboto;
+}
+
+.helpBottomSheetDetail {
+    font-size: 0.875rem;
+    color: rgba(0, 20, 40, 0.6);
+    line-height: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    font-family: Roboto;
+}

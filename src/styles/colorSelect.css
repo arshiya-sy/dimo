@@ -1,0 +1,59 @@
+.highEmphasis {
+    color: #FFFFFF;
+}
+
+.mediumEmphasis {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.disabled {
+    color: rgba(255, 255, 255, 0.38);
+}
+
+.errorRed {
+    color: rgb(255, 122, 125);
+}
+
+.success {
+    color: rgb(121, 213, 126);
+}
+
+.accent {
+    color: #FFB684;
+}
+
+.buttonAccent {
+    color: rgb(144, 192, 235);
+}
+
+.btnHighEmphasis {
+    color: rgb(0, 29, 56)
+}
+
+.btnMediumEmphasis {
+    color: #001D3899
+}
+
+.btnDisabled {
+    color: #001D3861
+}
+
+.duskHorizon {
+    color: #F2A375;
+}
+
+.amountTxnGreen {
+    color: "#4DBDBA"
+}
+
+.amountTxnRed {
+    color: "FF7773"
+}
+
+.ligtherAccent {
+    color: rgb(224, 244, 244)
+}
+
+.gradient-accent {
+    background-image: linear-gradient(135deg, rgba(255, 85, 77, 0.97) 0%, rgba(255, 186, 143, 1) 100%);
+}

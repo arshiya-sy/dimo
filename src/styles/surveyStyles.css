@@ -1,0 +1,108 @@
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v129/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+i.material-icons.pre-load {
+    display: none;
+}
+
+/* fallback */
+@font-face {
+    font-family: 'Material Icons Outlined';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialiconsoutlined/v104/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcel5euIg.woff2) format('woff2');
+}
+
+.material-icons-outlined {
+    font-family: 'Material Icons Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+.hy-checkbox-contaner input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.hy-checkbox-contaner label {
+    position: relative;
+    display: flex;
+}
+
+.hy-checkbox-contaner label:before {
+    content: '';
+    -webkit-appearance: none;
+    border: 2px solid #CBC0EA;
+    padding: 7px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    max-height: 18px;
+}
+
+.hy-checkbox-contaner input:checked+label:before {
+    background: #CBC0EA;
+}
+
+.hy-checkbox-contaner input:checked+label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 6px;
+    width: 4px;
+    height: 11px;
+    border: solid #001D38;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.survey-Checkbox input:checked+label:after {
+    top: 48%;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.hy-checkbox-label-text {
+    line-height: 18px;
+}

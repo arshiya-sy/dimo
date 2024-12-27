@@ -1,0 +1,407 @@
+.headline1 {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 2.125rem;
+    line-height: 2.75rem;
+    letter-spacing: -0.55px;
+}
+
+.headline2 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: -0.2px;
+}
+
+.headline3 {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0px;
+}
+
+.headline4 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0;
+}
+
+.headline5 {
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.1px;
+}
+
+.headline6 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.2px;
+}
+
+.headline7 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.2px;
+}
+
+.headline8 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    letter-spacing: -0.15px;
+}
+
+.headline9 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    letter-spacing: 0;
+}
+
+.headline10 {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.25px;
+}
+
+.subtitle1 {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: 0px;
+}
+
+.subtitle2 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: 0px;
+}
+
+.subtitle3 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    letter-spacing: 0.1px;
+}
+
+.subtitle4 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    letter-spacing: 0.1px;
+}
+
+.subtitle5 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.2px;
+}
+
+.subtitle6 {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.25px;
+}
+
+.subtitle7 {
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: -0.08px;
+    line-height: 1.5rem;
+}
+
+.subtitle8 {
+    font-family: Roboto;
+    font-weight: 800;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.25px;
+}
+
+.body1 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.125px;
+}
+
+.body2 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.25px;
+}
+
+.body3 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.14px;
+}
+
+.body4 {
+    font-family: Montserrat ExtraBold;
+    font-weight: 900;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.1px;
+}
+
+.dateRangeBody {
+    background-color: transparent;
+}
+
+.button1 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    letter-spacing: 0.25px;
+}
+
+.button2 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.caption {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.33px;
+}
+
+.overline {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 0.625rem;
+    line-height: 0.75rem;
+    letter-spacing: 2px;
+}
+
+.overline-1 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 0.625rem;
+    line-height: 0.75rem;
+    letter-spacing: 2px;
+}
+
+.label1 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    letter-spacing: 0;
+}
+
+.label2 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+    letter-spacing: 0.4px;
+}
+
+
+/* older css */
+
+.H1 {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 6rem;
+    line-height: 6.75rem;
+    letter-spacing: -1.5px;
+}
+
+.H2 {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 3.75rem;
+    line-height: 5rem;
+    letter-spacing: -0.5px;
+}
+
+.H3 {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 4rem;
+    letter-spacing: 0px;
+}
+
+.H4 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 2.125rem;
+    line-height: 2.75rem;
+    letter-spacing: 0.25px;
+}
+
+.H5 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0;
+}
+
+.H5-1 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.25px;
+}
+
+.H6 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.15px;
+}
+
+.Body1 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.5px;
+}
+
+.Body2 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.25px;
+}
+
+.Subtitle1 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.15px;
+}
+
+.Subtitle2 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.1px;
+}
+
+.Button1 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    letter-spacing: 0.1px;
+}
+
+.Button2 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0;
+}
+
+.Caption {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0;
+}
+
+
+.Overline1 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 2px;
+}
+
+.Overline2 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 0.625rem;
+    line-height: 1rem;
+    letter-spacing: 1.5px;
+}
+
+.CaptionBold {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0;
+}
+
+.pinStyle {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 2.215rem;
+    line-height: 2.75rem;
+    letter-spacing: 0.25px;
+}
+
+.H6BottomSheet {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.2px;
+}
+
+.tableRightStyle {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 0.875rem;
+    letter-spacing: 0.1px;
+    line-height: 1.5rem;
+}
+
+.tableLeftStyle {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 0.875rem;
+    letter-spacing: 0.25px;
+    line-height: 1.5rem;
+}

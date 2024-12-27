@@ -1,0 +1,19 @@
+runtime: nodejs18
+default_expiration: '0'
+
+handlers:
+  - url: /res/AllLocales/values-(.*)/(.*\..+)$
+    static_files: build/res/AllLocales/values-\1/\2
+    upload: build/res/AllLocales/values-(.*)/(.*\..+)$
+
+  # Serve all static files with url ending with a file extension
+  - url: /(.*\..+)$
+    static_files: build/\1
+    upload: build/(.*\..+)$
+
+  # Catch all handler to index.html
+  - url: /.*
+    static_files: build/index.html
+    upload: build/index.html
+
+instance_class: F4

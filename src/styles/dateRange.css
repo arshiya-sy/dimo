@@ -1,0 +1,44 @@
+.rdrStartEdge{
+    background: linear-gradient(135deg, RGBA(255, 85, 77, 0.99), RGB(255, 186, 143)) !important;
+}
+.rdrEndEdge{
+    background: linear-gradient(135deg, RGBA(255, 85, 77, 0.99), RGB(255, 186, 143)) !important;
+    /* border-radius: 1.042em !important; */
+}
+.rdrInRange{
+    background: rgba(31, 63, 94, 0.9) !important;
+    /* border: 2px solid rgba(255, 85, 77, .5) !important; */
+}
+.rdrCalendarWrapper {
+    font-size: 14px !important;
+    margin-left: -12px !important;
+    color: #FFFFFF !important;
+    background : transparent !important;
+}
+.rdrCalendarDayDisabled{
+    background-color: transparent !important;
+}
+.rdrWeekDay {
+    color:white !important;
+}
+
+.rdrDayDisabled .rdrDayNumber span {
+    color: #aeb9bf !important;
+}
+.rdrDayPassive .rdrDayNumber span {
+    color: #aeb9bf !important;
+}
+.rdrDayNumber span {
+    color: #FFFFFF !important;
+}
+.rdrNextPrevButton {
+    margin: 0 1.833em !important;
+}
+.rdrDayDisabled {
+    background-color: transparent !important;
+}
+
+.rdrMonthAndYearWrapper {
+ margin-left: 0.6rem;
+ margin-right: 0.6rem;
+}

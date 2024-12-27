@@ -1,0 +1,114 @@
+.shimmer-container {
+    position: absolute;
+    width: 100vw;
+    overflow: hidden;
+    height: min-content;
+    left: 0;
+}
+
+.transform {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.shimmer-container section div {
+    border-radius: 22px;
+    background: #1F3F5E;
+}
+
+.shimmer-parlaal-lines {
+    border-radius: 22px;
+}
+
+.shimmer-parlaal-lines div {
+    height: 28px;
+    border-radius: 22px;
+}
+
+.shimmer-bar-1 {
+    width: 71px;
+}
+
+.shimmer-bar-2 {
+    margin-top: 6px;
+    height: 19px;
+    width: 148px;
+}
+
+.shimmer-bar-3 {
+    width: 71px;
+    height: 19px;
+    margin-bottom: 6px;
+    margin-top: 27px;
+}
+
+.shimmer-bar-4 {
+    width: 71px;
+    height: 13px;
+    margin-top: 37px;
+}
+
+.shimmer-bar-5 {
+    height: 20px;
+    border-radius: 22px;
+    width: 71px;
+}
+
+.shimmer-bar-6 {
+    height: 24px;
+    border-radius: 16px;
+    width: 165.5px;
+}
+
+.shimmer-card-wraper {
+    margin: 0 24px;
+    margin-top: 8px;
+}
+
+.shimmer-card-bar {
+    height: 28px;
+    width: 134px;
+    margin-bottom: 8px;
+}
+
+.shim-bar {
+    width: 55px;
+    height: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.shim-bar-1 {
+    width: 306px;
+    height: 16px;
+    margin-top: 6px;
+    margin-left: 16px;
+}
+
+.shimming {
+    position: relative;
+    overflow: hidden;
+}
+
+.shimming::after {
+    content: "";
+    display: block;
+    background: linear-gradient(to right, #436B8E, #436B8E, #436B8E);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(0);
+    animation: 1s loading-placeholder linear infinite;
+}
+
+@keyframes loading-placeholder {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
